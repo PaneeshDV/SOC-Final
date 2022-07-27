@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <button id="start" type="button" onclick="Start()">Start</button>
+            <button id="lap" type="button" onclick="Lap()">Lap</button>
+            <button id="stop" type="button" onclick="Stop()">Stop</button>
+        </ul>
+    </nav>
+    <div>
+        <nav>
+            <p id="minutes">0</p>
+            <p>:</p>
+            <p id="seconds">00</p>
+            <p>.</p>
+            <p id="milliSeconds">00</p>
+        </nav>
+    </div>
+
+    <table id="myTable">
+        <tr id="heading">
+            <th id="col1">Lap no.</th>
+            <th id="col2">Lap Time</th>
+            <th id="col3">Overall Time</th>
+        </tr>
+    </table>
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
