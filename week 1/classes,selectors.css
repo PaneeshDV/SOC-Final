@@ -1,0 +1,61 @@
+/* .error {
+    color: red;
+}
+p.next {
+    color: aqua;
+}
+p.success {
+    color: green;
+}
+p.success.feedback {
+    border: 2px dashed green;
+}
+div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+
+/* descendence selector */
+
+
+/* div .error {
+    color: red;
+} */
+
+
+/* attribute selector */
+
+
+/* a[href="https://moodle.iitb.ac.in/login/index.php"] {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a[href*="google"] {
+    color: white;
+    border: 2px dashed purple;
+}
+
+a[href$=".com"] {
+    background-color: blue;
+} */
+
+
+/* Inheritance */
+
+div {
+    color: chocolate;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
